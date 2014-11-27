@@ -13,7 +13,7 @@
  */
 function hook_observer_info() {
   return array(
-    new ObserverLogObserver()
+    new NsaObserver()
   );
 }
 
@@ -24,8 +24,10 @@ function hook_observer_info() {
  * @param ObserverObserverInterface[] $observers
  */
 function hook_observer_info_alter(&$observers) {
+
+  // Remove unwanted observer.
   foreach ($observers as $index => $observer) {
-    if (is_a($observer, 'ObserverLogObserver')) {
+    if (is_a($observer, 'NsaObserver')) {
       unset($observers[$index]);
     }
   }

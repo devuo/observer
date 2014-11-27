@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * @file
+ * Contains the ObserverObservable class.
+ */
+
+/**
+ * Class ObserverObservable
+ *
+ * A class that implements the observable from the observer design pattern.
+ * Can be sub-classed or used as is.
+ */
 class ObserverObservable implements ObserverObservableInterface {
 
   /**

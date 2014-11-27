@@ -12,6 +12,9 @@ function observer_init() {
   observer_register_observers();
 }
 
+// Helpers
+// -----------------------------------------------------------------------------
+
 /**
  * Registers observers to the global observable.
  */

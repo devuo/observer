@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * @file
+ * Contains the ObserverObservableInterface interface.
+ */
+
+/**
+ * Interface ObserverObservableInterface
+ *
+ * Defines the Observable interface from the Observer design pattern.
+ */
 interface ObserverObservableInterface {
 
   /**

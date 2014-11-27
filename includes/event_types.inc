@@ -1,5 +1,21 @@
 <?php
 
+/**
+ * @file
+ * Contains ObserverEventTypes class.
+ */
+
+/**
+ * Class ObserverEventTypes
+ *
+ * Contains a list of typical events commonly triggered in inside the global
+ * Observable instance. This list is not exhaustive as the system dynamically
+ * generates types for each of the entities existing inside Drupal.
+ *
+ * @see observer_entity_insert().
+ * @see observer_entity_update().
+ * @see observer_entity_delete().
+ */
 class ObserverEventTypes {
 
   // Generic Entity Events
