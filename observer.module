@@ -6,15 +6,6 @@
  */
 
 /**
- * Implements hook_observer_info().
- */
-function observer_observer_info() {
-  return array(
-    new ObserverLogObserver()
-  );
-}
-
-/**
  * Implements hook_init().
  */
 function observer_init() {

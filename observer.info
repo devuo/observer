@@ -10,5 +10,4 @@ files[] = includes/observer_interface.inc
 ; implementations
 files[] = includes/event.inc
 files[] = includes/event_types.inc
-files[] = includes/log_observer.inc
 files[] = includes/observable.inc
